@@ -1,0 +1,15 @@
+[tags]
+universal = [
+    "file", "purpose", "api", "data-flow", "lifecycle",
+    "gotcha", "decision", "pattern", "convention", "type"
+]
+require_prefix = true
+
+[entity_types]
+allowed = ["Index", "System", "Feature", "Decision", "Configuration"]
+
+[relation_types]
+allowed = ["uses", "depends_on", "composes", "calls", "delegates_to", "imports_from", "implemented_in"]
+
+[index_nodes]
+required = []
